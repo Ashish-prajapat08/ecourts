@@ -1,0 +1,50 @@
+submitted by 20 oct
+┌─────────────────────────────────┐
+│    CAUSE LIST DOWNLOADER        │
+├─────────────────────────────────┤
+│                                 │
+│  State: [Dropdown/Input]        │
+│  District: [Dropdown/Input]     │
+│  Court Complex: [Dropdown]      │
+│  Court Name: [Dropdown]         │
+│  Date: [Date Picker]            │
+│                                 │
+│  [ Download PDF ]               │
+│                                 │
+│  [Advanced: Download All]       │
+└─────────────────────────────────┘
+
+Backend:
+
+Scrape data in real-time from eCourts website
+Don't store sample data - fetch live data
+Download PDF files
+Store PDFs in a folder with proper naming
+
+
+Tech Stack Recommendation:
+
+Backend: Python (Flask/Django)
+Frontend: HTML/CSS/JavaScript (or React)
+Scraping: Selenium (because website uses JavaScript) or BeautifulSoup (if static)
+PDF Download: Direct download from website or convert to PDF if needed
+
+
+Submission Checklist:
+✅ GitHub repository link with code
+✅ Video demo showing:
+
+UI working
+User inputs state/district/court/date
+PDF downloading in real-time
+✅ README with setup instructions
+✅ Fill the form: https://wkf.ms/46R6rhH
+
+
+Key Points:
+
+Real-time data - No hardcoded data
+Working UI - Not just command line
+PDF download - Main deliverable
+Video proof - Show it working
+GitHub link - Submit code
